@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Fix #0",
+      "setup": "sudo apt install bundler",
+      "run": "bundle install && bundle exec rake",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
