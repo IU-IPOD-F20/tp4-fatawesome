@@ -102,19 +102,19 @@ endif::[]
 //------------------------------------ 
 == {assignment}
 
-{lastName}:: BRUEL
+{lastName}:: Alonov
 
-{firstName}:: Jean-Michel
+{firstName}:: Ilya
 
-{group} #::
+{group} #:: BS-17-SB-01
 
 [%interactive]
-- [X] {Enseignants}
+- [] {Enseignants}
 - [ ] 1
 - [ ] 2
 - [ ] 3
 - [ ] 4
-- [ ] Innopolis
+- [X] Innopolis
 
 //------------------------------------ 
 == {requirements}
