@@ -352,7 +352,7 @@ We will modify the code into several classes observing that:
 +
 -------
    application
-   application.action
+   action
    application.actionlist
 -------
 +
@@ -392,12 +392,12 @@ public interface Action  {
 ----
 +
 . Declare a class by action (menu option) to use. Start with "List of agency accounts":
-.. Create a class (the name `ActionAccountsLists` seems suitable) in the package `application.action`,
+.. Create a class (the name `ActionAccountsLists` seems suitable) in the package `action`,
 .. which implements `Action`,
 .. with two attributes `(message, code)`
 .. write the code including a correctly configured constructor,
 .. the `execute(BankAgency)` method will display the screen of the list of bank agency accounts as a parameter.
-. In the same way, declare a class for the action "View an account (by its number)" (class `ActionSeeAccountNumber`) in the package `application.action`.
+. In the same way, declare a class for the action "View an account (by its number)" (class `ActionSeeAccountNumber`) in the package `action`.
 
 === User menus as objects
 
